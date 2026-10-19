@@ -87,11 +87,55 @@ nav a[aria-current="page"] { color: var(--green); }
 .btn:hover { background: #e5f6bd; }
 
 .about,
-.values { width: min(1080px, 88%); margin: 0 auto; }
+.values,
+.contact-section { width: min(1080px, 88%); margin: 0 auto; }
 
 .about { padding: 52px 0 34px; }
 
+.about h2 {
+    margin: 0 0 18px;
+    color: var(--green);
+    font-size: clamp(1.75rem, 3vw, 2.4rem);
+}
+
 .about p { max-width: 850px; margin: 0 0 16px; color: var(--muted); }
+
+.page-hero {
+    display: flex;
+    min-height: 220px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 48px max(10vw, 28px);
+    background: linear-gradient(115deg, #174b39, #246b50 68%, #39805d);
+    color: #fff;
+}
+
+.page-hero h1 {
+    margin: 0;
+    font-size: clamp(2.1rem, 4vw, 3.25rem);
+    line-height: 1.1;
+}
+
+.contact-section {
+    padding: 52px 0 72px;
+}
+
+.contact-card {
+    max-width: 620px;
+    padding: 28px 24px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(23, 32, 29, 0.08);
+}
+
+.contact-card p {
+    margin: 0 0 12px;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.contact-card p:last-child { margin-bottom: 0; }
 
 .values {
     display: grid;
