@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Connected software systems</title>
+  <desc id="desc">A central software platform connects cloud services, data, and devices.</desc>
+  <rect width="800" height="600" fill="#dfe9e7"/>
+  <circle cx="398" cy="298" r="203" fill="#f5f2e9"/>
+  <path d="M400 191v-58M400 407v62M292 298h-65M508 298h66M321 221l-47-47M480 375l47 47M479 221l48-48M321 375l-49 49" stroke="#7d9b8d" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 13"/>
+  <rect x="303" y="222" width="194" height="153" rx="19" fill="#174b39"/>
+  <rect x="323" y="243" width="154" height="15" rx="7" fill="#d6ed9b"/>
+  <path d="M334 284h52M334 310h95M334 336h69" stroke="#b4d1bd" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="458" cy="286" r="7" fill="#ef936d"/>
+  <circle cx="458" cy="311" r="7" fill="#efc96e"/>
+  <circle cx="458" cy="337" r="7" fill="#82c28a"/>
+  <circle cx="400" cy="119" r="45" fill="#e7aa59"/>
+  <path d="M378 126c0-13 10-23 23-23 8-14 31-9 32 7 18 2 17 27-2 28h-45c-5 0-8-5-8-12Z" fill="#fff9ed"/>
+  <rect x="186" y="269" width="76" height="62" rx="9" fill="#528a69"/>
+  <path d="M206 286h36M206 301h36M206 316h25" stroke="#e8f0de" stroke-width="6" stroke-linecap="round"/>
+  <rect x="539" y="269" width="76" height="62" rx="9" fill="#df795f"/>
+  <circle cx="577" cy="291" r="8" fill="#fff2db"/>
+  <path d="M554 315h46" stroke="#fff2db" stroke-width="6" stroke-linecap="round"/>
+  <path d="M361 477h78l13 35h-104z" fill="#344b42"/>
+  <rect x="344" y="512" width="113" height="10" rx="5" fill="#638271"/>
+  <path d="m294 440 31-19 29 20-31 19zM461 441l30-20 29 20-30 19z" fill="#c88a5e"/>
+  <path d="M310 451v22M339 451v22M477 451v22M505 451v22" stroke="#8a5941" stroke-width="5"/>
+</svg>

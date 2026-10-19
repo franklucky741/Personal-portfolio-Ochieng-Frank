@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Coding workspace</title>
+  <desc id="desc">A laptop displaying code on a tidy desk with a plant and coffee.</desc>
+  <rect width="800" height="600" fill="#dcebe2"/>
+  <circle cx="665" cy="116" r="69" fill="#f2c36b"/>
+  <path d="M0 440h800v160H0z" fill="#9b6849"/>
+  <path d="M0 470h800v18H0z" fill="#85563e" opacity=".55"/>
+  <rect x="146" y="116" width="490" height="306" rx="18" fill="#202b2c"/>
+  <rect x="162" y="132" width="458" height="270" rx="8" fill="#112522"/>
+  <circle cx="181" cy="151" r="5" fill="#ef7765"/>
+  <circle cx="199" cy="151" r="5" fill="#f1c46b"/>
+  <circle cx="217" cy="151" r="5" fill="#83c98e"/>
+  <path d="M194 193h102M194 222h165M194 251h130M194 280h202M194 309h151M194 338h178" stroke="#5c8477" stroke-width="9" stroke-linecap="round"/>
+  <path d="M245 193h84M301 222h120M278 251h75M410 280h102M365 309h104M390 338h74" stroke="#e3bd72" stroke-width="9" stroke-linecap="round"/>
+  <path d="M118 421h546l54 42H64z" fill="#b8c5c0"/>
+  <path d="M303 431h167l20 18H283z" fill="#899892"/>
+  <rect x="650" y="358" width="77" height="82" rx="8" fill="#f1e8d5"/>
+  <path d="M727 374h15a20 20 0 0 1 0 40h-15" fill="none" stroke="#f1e8d5" stroke-width="11"/>
+  <path d="M672 358c-18-23 8-33 0-53M699 358c-17-21 10-31 2-50" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+  <path d="M75 438c-17-58 3-106 40-132 17 40 7 88-40 132Z" fill="#387a58"/>
+  <path d="M92 434c2-74 35-107 72-116 2 43-21 86-72 116Z" fill="#579565"/>
+  <path d="M64 438h91l-10 43H76z" fill="#dc875d"/>
+  <path d="M98 438 121 334" stroke="#d4e5ce" stroke-width="4"/>
+</svg>

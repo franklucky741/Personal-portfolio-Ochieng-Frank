@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Interface design board</title>
+  <desc id="desc">A web dashboard concept with a navigation rail, charts, and a bright accent panel.</desc>
+  <rect width="800" height="600" fill="#f2e7d5"/>
+  <path d="M0 470 800 350v250H0z" fill="#e8d4b6"/>
+  <rect x="115" y="87" width="570" height="390" rx="17" fill="#fffdf8" stroke="#263a35" stroke-width="8"/>
+  <path d="M122 145h556" stroke="#d8ddd4" stroke-width="3"/>
+  <circle cx="146" cy="116" r="6" fill="#e67e62"/>
+  <circle cx="168" cy="116" r="6" fill="#e9bd5e"/>
+  <circle cx="190" cy="116" r="6" fill="#78aa79"/>
+  <rect x="141" y="169" width="118" height="284" rx="9" fill="#174b39"/>
+  <circle cx="179" cy="207" r="19" fill="#d6ed9b"/>
+  <path d="M165 207h28M179 193v28" stroke="#174b39" stroke-width="5" stroke-linecap="round"/>
+  <path d="M161 255h73M161 283h58M161 311h67M161 339h49" stroke="#b3cdb5" stroke-width="8" stroke-linecap="round"/>
+  <text x="285" y="198" fill="#25342f" font-family="Verdana, sans-serif" font-size="23" font-weight="700">Overview</text>
+  <rect x="285" y="218" width="165" height="92" rx="10" fill="#dcebe2"/>
+  <rect x="466" y="218" width="186" height="92" rx="10" fill="#f2c36b"/>
+  <path d="M306 278h21v-22h21v-13h21v-16h21v-10" fill="none" stroke="#246b50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="597" cy="263" r="25" fill="none" stroke="#174b39" stroke-width="12"/>
+  <path d="M597 238a25 25 0 0 1 24 32" fill="none" stroke="#fffdf8" stroke-width="12"/>
+  <rect x="285" y="330" width="367" height="123" rx="10" fill="#f1eee5"/>
+  <path d="M310 424v-36h41v36M371 424v-55h41v55M432 424v-28h41v28M493 424v-70h41v70M554 424v-48h41v48" fill="#68a17b"/>
+  <path d="M302 424h324" stroke="#8f9b91" stroke-width="3"/>
+  <path d="M105 494h590" stroke="#8d6247" stroke-width="11" stroke-linecap="round"/>
+</svg>
