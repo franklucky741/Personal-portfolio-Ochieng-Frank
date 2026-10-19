@@ -1,0 +1,118 @@
+:root {
+    color-scheme: light;
+    --ink: #17201d;
+    --muted: #596760;
+    --paper: #f4f6f1;
+    --green: #246b50;
+    --lime: #d6ed9b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 18px max(6vw, 24px);
+    background: #fff;
+}
+
+.logo {
+    color: var(--green);
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.logo span { color: var(--ink); margin-left: 5px; }
+
+nav { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+
+nav a {
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active,
+nav a[aria-current="page"] { color: var(--green); }
+
+.hero {
+    display: flex;
+    min-height: 390px;
+    align-items: center;
+    padding: 72px max(10vw, 28px);
+    background: linear-gradient(115deg, #174b39, #246b50 68%, #39805d);
+    color: #fff;
+}
+
+.hero-content { max-width: 720px; }
+
+.hero h1 {
+    max-width: 650px;
+    margin: 0 0 16px;
+    font-size: clamp(2.25rem, 5vw, 4rem);
+    line-height: 1.1;
+}
+
+.hero p {
+    max-width: 620px;
+    margin: 0 0 28px;
+    color: #e0eee4;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 19px;
+    border-radius: 4px;
+    background: var(--lime);
+    color: var(--ink);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.btn:hover { background: #e5f6bd; }
+
+.about,
+.values { width: min(1080px, 88%); margin: 0 auto; }
+
+.about { padding: 52px 0 34px; }
+
+.about p { max-width: 850px; margin: 0 0 16px; color: var(--muted); }
+
+.values {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    padding: 12px 0 58px;
+}
+
+.value-item { padding: 22px; border-top: 3px solid var(--green); background: #fff; }
+
+.value-item h3 { margin: 0 0 8px; color: var(--green); font-size: 1rem; }
+
+.value-item p { margin: 0; color: var(--muted); }
+
+footer { padding: 18px 24px; background: var(--ink); color: #e5ece7; text-align: center; }
+
+footer p { margin: 0; font-size: 0.9rem; }
+
+@media (max-width: 680px) {
+    header { align-items: flex-start; flex-direction: column; gap: 10px; padding: 16px 6%; }
+    nav { gap: 8px 16px; }
+    .hero { min-height: 340px; padding: 56px 7%; }
+    .values { grid-template-columns: 1fr; gap: 12px; }
+}
